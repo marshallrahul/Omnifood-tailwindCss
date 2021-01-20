@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+.btn-blue {
+  @apply bg-blue-500 hover:bg-blue-700 text-white;
+} */
+
+.bt-border {
+  @apply pb-1.5; 
+  @apply border-b-2 border-solid border-transparent transition-all duration-300;
+  @apply hover:border-b-2 hover:border-primary;
+}
+
+.btn {
+  @apply text-xl font-medium text-white;
+  @apply bg-primary;
+  @apply rounded-full;
+  @apply px-7 py-2;
+}
+
+.btn-outline {
+  @apply text-xl font-medium text-primary;
+  @apply border-thin border-primary rounded-full;
+  @apply px-7 py-2;
+}
+
+.meal-photo {
+  @apply bg-black;
+  @apply overflow-hidden;
+}
+
+.meal-photo-child {
+  @apply object-cover;
+  @apply transform scale-110 opacity-70;
+  @apply hover:opacity-100 hover:scale-105;
+  @apply transition-all duration-300;
+}
+
+.steps {
+  @apply text-2xl text-primary border-2 border-primary;
+  @apply rounded-full flex items-center justify-center;
+  @apply h-12 w-12;
+}
